@@ -23,6 +23,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var motionManager: CMMotionManager!
     var isGameOver: Bool = false
     
+    var gameOver: SKLabelNode!
+    
     var scoreLabel: SKLabelNode!
     var score = 0 {
         didSet {
@@ -45,6 +47,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         scoreLabel.position = CGPoint(x: 16, y: 16)
         scoreLabel.zPosition = 2
         addChild(scoreLabel)
+        
+        
+        
+        
         
         loadLevel()
         creatPlayer()
@@ -211,7 +217,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             node.removeFromParent()
             score += 1
         } else if node.name == "finish" {
-            // nect level 
+            node.removeFromParent()
+            gameOver = SKLabelNode(fontNamed: "Chalkduster")
+            gameOver.text = "Tebrikler Oyun Bitti"
+            gameOver.fontColor = .red
+            gameOver.fontSize = 56
+            gameOver.position = CGPoint(x: 500, y: 420)
+            gameOver.zPosition = 2
+            addChild(gameOver)
         }
     }
     
