@@ -1,5 +1,5 @@
 ## StarMazeRollGame_Swift_SpriteKit_CMMotionManager
-| Oyun Başlıyor | Oyunda Yanma Olayı | Level 2 Gecis && Oyun bitti |
+| Oyun Başlıyor | Oyunda Yanma Olayı | Level 2 Geciş && Oyun bitti |
 |---------|---------|---------|
 | ![Video 1](https://github.com/user-attachments/assets/389f7f25-1d36-4e90-b262-c03af23e6e96) | ![Video 2](https://github.com/user-attachments/assets/62255bd6-aaa8-4f2f-950e-92d70ad6631d) |![Video 3](https://github.com/user-attachments/assets/568dee55-2ad0-40a6-bcca-9a4e3823ec7e) |
 
