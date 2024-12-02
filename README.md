@@ -14,7 +14,7 @@
 
   <details>
     <summary><h2>CollisionTypes Enum</h2></summary>
-    Bu enum, oyundaki çarpışma kategorilerini tanımlar. Her bir kategoriye benzersiz bir UInt32 değeri atanır. Bu değerler, fiziksel çarpışmaların doğru şekilde yönetilmesi için kullanılır. Örneğin, bir oyuncu "vortex" ile çarpıştığında, bu çarpışma vortext kategorisiyle tetiklenir.
+    Bu enum, oyundaki çarpışma kategorilerini tanımlar. Her bir kategoriye benzersiz bir UInt32 değeri atanır. Bu değerler, fiziksel çarpışmaların doğru şekilde yönetilmesi için kullanılır. Örneğin, bir oyuncu "vortex" ile çarpıştığında, bu çarpışma vortext kategorisiyle tetiklenir
     
     ```
     enum CollisionTypes: UInt32 {
